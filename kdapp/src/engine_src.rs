@@ -1,4 +1,4 @@
-//! This module handles the logic of running and maintaining several epidodes of the same type
+//! This module handles the logic of running and maintaining several episodes of the same type
 //! including keeping a stack of rollback objects per episode in order to support DAG reorg handling
 
 use borsh::{BorshDeserialize, BorshSerialize};
